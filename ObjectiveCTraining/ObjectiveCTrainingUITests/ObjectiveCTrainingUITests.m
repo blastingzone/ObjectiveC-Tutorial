@@ -1,18 +1,18 @@
 //
-//  ObjectiveCTrainingUITests.m
-//  ObjectiveCTrainingUITests
+//  ObjectiveCtrainingUITests.m
+//  ObjectiveCtrainingUITests
 //
-//  Created by Moon on 2016. 3. 2..
+//  Created by Moon on 2016. 3. 3..
 //  Copyright © 2016년 Moon. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ObjectiveCTrainingUITests : XCTestCase
+@interface ObjectiveCtrainingUITests : XCTestCase
 
 @end
 
-@implementation ObjectiveCTrainingUITests
+@implementation ObjectiveCtrainingUITests
 
 - (void)setUp {
     [super setUp];

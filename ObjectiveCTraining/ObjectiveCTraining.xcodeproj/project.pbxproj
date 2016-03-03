@@ -7,71 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73FCEE2A1C86D480005C4438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FCEE291C86D480005C4438 /* main.m */; };
-		73FCEE2D1C86D480005C4438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FCEE2C1C86D480005C4438 /* AppDelegate.m */; };
-		73FCEE301C86D480005C4438 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FCEE2F1C86D480005C4438 /* MasterViewController.m */; };
-		73FCEE331C86D480005C4438 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FCEE321C86D480005C4438 /* DetailViewController.m */; };
-		73FCEE361C86D480005C4438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FCEE341C86D480005C4438 /* Main.storyboard */; };
-		73FCEE381C86D480005C4438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73FCEE371C86D480005C4438 /* Assets.xcassets */; };
-		73FCEE3B1C86D480005C4438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FCEE391C86D480005C4438 /* LaunchScreen.storyboard */; };
-		73FCEE461C86D480005C4438 /* ObjectiveCTrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FCEE451C86D480005C4438 /* ObjectiveCTrainingTests.m */; };
-		73FCEE511C86D480005C4438 /* ObjectiveCTrainingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FCEE501C86D480005C4438 /* ObjectiveCTrainingUITests.m */; };
+		738649901C88572D0048827C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7386498F1C88572D0048827C /* main.m */; };
+		738649931C88572D0048827C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 738649921C88572D0048827C /* AppDelegate.m */; };
+		738649961C88572D0048827C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738649951C88572D0048827C /* ViewController.m */; };
+		738649991C88572D0048827C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738649971C88572D0048827C /* Main.storyboard */; };
+		7386499B1C88572D0048827C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7386499A1C88572D0048827C /* Assets.xcassets */; };
+		7386499E1C88572D0048827C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7386499C1C88572D0048827C /* LaunchScreen.storyboard */; };
+		738649A91C88572D0048827C /* ObjectiveCtrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 738649A81C88572D0048827C /* ObjectiveCtrainingTests.m */; };
+		738649B41C88572D0048827C /* ObjectiveCtrainingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 738649B31C88572D0048827C /* ObjectiveCtrainingUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		73FCEE421C86D480005C4438 /* PBXContainerItemProxy */ = {
+		738649A51C88572D0048827C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 73FCEE1D1C86D47F005C4438 /* Project object */;
+			containerPortal = 738649831C88572C0048827C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73FCEE241C86D480005C4438;
-			remoteInfo = ObjectiveCTraining;
+			remoteGlobalIDString = 7386498A1C88572C0048827C;
+			remoteInfo = ObjectiveCtraining;
 		};
-		73FCEE4D1C86D480005C4438 /* PBXContainerItemProxy */ = {
+		738649B01C88572D0048827C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 73FCEE1D1C86D47F005C4438 /* Project object */;
+			containerPortal = 738649831C88572C0048827C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73FCEE241C86D480005C4438;
-			remoteInfo = ObjectiveCTraining;
+			remoteGlobalIDString = 7386498A1C88572C0048827C;
+			remoteInfo = ObjectiveCtraining;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		73FCEE251C86D480005C4438 /* ObjectiveCTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		73FCEE291C86D480005C4438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		73FCEE2B1C86D480005C4438 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		73FCEE2C1C86D480005C4438 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		73FCEE2E1C86D480005C4438 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		73FCEE2F1C86D480005C4438 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		73FCEE311C86D480005C4438 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		73FCEE321C86D480005C4438 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		73FCEE351C86D480005C4438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		73FCEE371C86D480005C4438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		73FCEE3A1C86D480005C4438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		73FCEE3C1C86D480005C4438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73FCEE411C86D480005C4438 /* ObjectiveCTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCTrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		73FCEE451C86D480005C4438 /* ObjectiveCTrainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTrainingTests.m; sourceTree = "<group>"; };
-		73FCEE471C86D480005C4438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73FCEE4C1C86D480005C4438 /* ObjectiveCTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCTrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		73FCEE501C86D480005C4438 /* ObjectiveCTrainingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTrainingUITests.m; sourceTree = "<group>"; };
-		73FCEE521C86D480005C4438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7386498B1C88572D0048827C /* ObjectiveCtraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCtraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7386498F1C88572D0048827C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		738649911C88572D0048827C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		738649921C88572D0048827C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		738649941C88572D0048827C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		738649951C88572D0048827C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		738649981C88572D0048827C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7386499A1C88572D0048827C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7386499D1C88572D0048827C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7386499F1C88572D0048827C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738649A41C88572D0048827C /* ObjectiveCtrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCtrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738649A81C88572D0048827C /* ObjectiveCtrainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCtrainingTests.m; sourceTree = "<group>"; };
+		738649AA1C88572D0048827C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738649AF1C88572D0048827C /* ObjectiveCtrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCtrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738649B31C88572D0048827C /* ObjectiveCtrainingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCtrainingUITests.m; sourceTree = "<group>"; };
+		738649B51C88572D0048827C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		73FCEE221C86D480005C4438 /* Frameworks */ = {
+		738649881C88572C0048827C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73FCEE3E1C86D480005C4438 /* Frameworks */ = {
+		738649A11C88572D0048827C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73FCEE491C86D480005C4438 /* Frameworks */ = {
+		738649AC1C88572D0048827C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,152 +78,150 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		73FCEE1C1C86D47F005C4438 = {
+		738649821C88572C0048827C = {
 			isa = PBXGroup;
 			children = (
-				73FCEE271C86D480005C4438 /* ObjectiveCTraining */,
-				73FCEE441C86D480005C4438 /* ObjectiveCTrainingTests */,
-				73FCEE4F1C86D480005C4438 /* ObjectiveCTrainingUITests */,
-				73FCEE261C86D480005C4438 /* Products */,
+				7386498D1C88572D0048827C /* ObjectiveCtraining */,
+				738649A71C88572D0048827C /* ObjectiveCtrainingTests */,
+				738649B21C88572D0048827C /* ObjectiveCtrainingUITests */,
+				7386498C1C88572D0048827C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		73FCEE261C86D480005C4438 /* Products */ = {
+		7386498C1C88572D0048827C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73FCEE251C86D480005C4438 /* ObjectiveCTraining.app */,
-				73FCEE411C86D480005C4438 /* ObjectiveCTrainingTests.xctest */,
-				73FCEE4C1C86D480005C4438 /* ObjectiveCTrainingUITests.xctest */,
+				7386498B1C88572D0048827C /* ObjectiveCtraining.app */,
+				738649A41C88572D0048827C /* ObjectiveCtrainingTests.xctest */,
+				738649AF1C88572D0048827C /* ObjectiveCtrainingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73FCEE271C86D480005C4438 /* ObjectiveCTraining */ = {
+		7386498D1C88572D0048827C /* ObjectiveCtraining */ = {
 			isa = PBXGroup;
 			children = (
-				73FCEE2B1C86D480005C4438 /* AppDelegate.h */,
-				73FCEE2C1C86D480005C4438 /* AppDelegate.m */,
-				73FCEE2E1C86D480005C4438 /* MasterViewController.h */,
-				73FCEE2F1C86D480005C4438 /* MasterViewController.m */,
-				73FCEE311C86D480005C4438 /* DetailViewController.h */,
-				73FCEE321C86D480005C4438 /* DetailViewController.m */,
-				73FCEE341C86D480005C4438 /* Main.storyboard */,
-				73FCEE371C86D480005C4438 /* Assets.xcassets */,
-				73FCEE391C86D480005C4438 /* LaunchScreen.storyboard */,
-				73FCEE3C1C86D480005C4438 /* Info.plist */,
-				73FCEE281C86D480005C4438 /* Supporting Files */,
+				738649911C88572D0048827C /* AppDelegate.h */,
+				738649921C88572D0048827C /* AppDelegate.m */,
+				738649941C88572D0048827C /* ViewController.h */,
+				738649951C88572D0048827C /* ViewController.m */,
+				738649971C88572D0048827C /* Main.storyboard */,
+				7386499A1C88572D0048827C /* Assets.xcassets */,
+				7386499C1C88572D0048827C /* LaunchScreen.storyboard */,
+				7386499F1C88572D0048827C /* Info.plist */,
+				7386498E1C88572D0048827C /* Supporting Files */,
 			);
-			path = ObjectiveCTraining;
+			path = ObjectiveCtraining;
 			sourceTree = "<group>";
 		};
-		73FCEE281C86D480005C4438 /* Supporting Files */ = {
+		7386498E1C88572D0048827C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				73FCEE291C86D480005C4438 /* main.m */,
+				7386498F1C88572D0048827C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		73FCEE441C86D480005C4438 /* ObjectiveCTrainingTests */ = {
+		738649A71C88572D0048827C /* ObjectiveCtrainingTests */ = {
 			isa = PBXGroup;
 			children = (
-				73FCEE451C86D480005C4438 /* ObjectiveCTrainingTests.m */,
-				73FCEE471C86D480005C4438 /* Info.plist */,
+				738649A81C88572D0048827C /* ObjectiveCtrainingTests.m */,
+				738649AA1C88572D0048827C /* Info.plist */,
 			);
-			path = ObjectiveCTrainingTests;
+			path = ObjectiveCtrainingTests;
 			sourceTree = "<group>";
 		};
-		73FCEE4F1C86D480005C4438 /* ObjectiveCTrainingUITests */ = {
+		738649B21C88572D0048827C /* ObjectiveCtrainingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				73FCEE501C86D480005C4438 /* ObjectiveCTrainingUITests.m */,
-				73FCEE521C86D480005C4438 /* Info.plist */,
+				738649B31C88572D0048827C /* ObjectiveCtrainingUITests.m */,
+				738649B51C88572D0048827C /* Info.plist */,
 			);
-			path = ObjectiveCTrainingUITests;
+			path = ObjectiveCtrainingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73FCEE241C86D480005C4438 /* ObjectiveCTraining */ = {
+		7386498A1C88572C0048827C /* ObjectiveCtraining */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73FCEE551C86D480005C4438 /* Build configuration list for PBXNativeTarget "ObjectiveCTraining" */;
+			buildConfigurationList = 738649B81C88572D0048827C /* Build configuration list for PBXNativeTarget "ObjectiveCtraining" */;
 			buildPhases = (
-				73FCEE211C86D480005C4438 /* Sources */,
-				73FCEE221C86D480005C4438 /* Frameworks */,
-				73FCEE231C86D480005C4438 /* Resources */,
+				738649871C88572C0048827C /* Sources */,
+				738649881C88572C0048827C /* Frameworks */,
+				738649891C88572C0048827C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ObjectiveCTraining;
-			productName = ObjectiveCTraining;
-			productReference = 73FCEE251C86D480005C4438 /* ObjectiveCTraining.app */;
+			name = ObjectiveCtraining;
+			productName = ObjectiveCtraining;
+			productReference = 7386498B1C88572D0048827C /* ObjectiveCtraining.app */;
 			productType = "com.apple.product-type.application";
 		};
-		73FCEE401C86D480005C4438 /* ObjectiveCTrainingTests */ = {
+		738649A31C88572D0048827C /* ObjectiveCtrainingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73FCEE581C86D480005C4438 /* Build configuration list for PBXNativeTarget "ObjectiveCTrainingTests" */;
+			buildConfigurationList = 738649BB1C88572D0048827C /* Build configuration list for PBXNativeTarget "ObjectiveCtrainingTests" */;
 			buildPhases = (
-				73FCEE3D1C86D480005C4438 /* Sources */,
-				73FCEE3E1C86D480005C4438 /* Frameworks */,
-				73FCEE3F1C86D480005C4438 /* Resources */,
+				738649A01C88572D0048827C /* Sources */,
+				738649A11C88572D0048827C /* Frameworks */,
+				738649A21C88572D0048827C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				73FCEE431C86D480005C4438 /* PBXTargetDependency */,
+				738649A61C88572D0048827C /* PBXTargetDependency */,
 			);
-			name = ObjectiveCTrainingTests;
-			productName = ObjectiveCTrainingTests;
-			productReference = 73FCEE411C86D480005C4438 /* ObjectiveCTrainingTests.xctest */;
+			name = ObjectiveCtrainingTests;
+			productName = ObjectiveCtrainingTests;
+			productReference = 738649A41C88572D0048827C /* ObjectiveCtrainingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		73FCEE4B1C86D480005C4438 /* ObjectiveCTrainingUITests */ = {
+		738649AE1C88572D0048827C /* ObjectiveCtrainingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73FCEE5B1C86D480005C4438 /* Build configuration list for PBXNativeTarget "ObjectiveCTrainingUITests" */;
+			buildConfigurationList = 738649BE1C88572D0048827C /* Build configuration list for PBXNativeTarget "ObjectiveCtrainingUITests" */;
 			buildPhases = (
-				73FCEE481C86D480005C4438 /* Sources */,
-				73FCEE491C86D480005C4438 /* Frameworks */,
-				73FCEE4A1C86D480005C4438 /* Resources */,
+				738649AB1C88572D0048827C /* Sources */,
+				738649AC1C88572D0048827C /* Frameworks */,
+				738649AD1C88572D0048827C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				73FCEE4E1C86D480005C4438 /* PBXTargetDependency */,
+				738649B11C88572D0048827C /* PBXTargetDependency */,
 			);
-			name = ObjectiveCTrainingUITests;
-			productName = ObjectiveCTrainingUITests;
-			productReference = 73FCEE4C1C86D480005C4438 /* ObjectiveCTrainingUITests.xctest */;
+			name = ObjectiveCtrainingUITests;
+			productName = ObjectiveCtrainingUITests;
+			productReference = 738649AF1C88572D0048827C /* ObjectiveCtrainingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		73FCEE1D1C86D47F005C4438 /* Project object */ = {
+		738649831C88572C0048827C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Moon;
 				TargetAttributes = {
-					73FCEE241C86D480005C4438 = {
+					7386498A1C88572C0048827C = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = X73TF98QRG;
 					};
-					73FCEE401C86D480005C4438 = {
+					738649A31C88572D0048827C = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = X73TF98QRG;
-						TestTargetID = 73FCEE241C86D480005C4438;
+						TestTargetID = 7386498A1C88572C0048827C;
 					};
-					73FCEE4B1C86D480005C4438 = {
+					738649AE1C88572D0048827C = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = X73TF98QRG;
-						TestTargetID = 73FCEE241C86D480005C4438;
+						TestTargetID = 7386498A1C88572C0048827C;
 					};
 				};
 			};
-			buildConfigurationList = 73FCEE201C86D47F005C4438 /* Build configuration list for PBXProject "ObjectiveCTraining" */;
+			buildConfigurationList = 738649861C88572C0048827C /* Build configuration list for PBXProject "ObjectiveCtraining" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,37 +229,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 73FCEE1C1C86D47F005C4438;
-			productRefGroup = 73FCEE261C86D480005C4438 /* Products */;
+			mainGroup = 738649821C88572C0048827C;
+			productRefGroup = 7386498C1C88572D0048827C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73FCEE241C86D480005C4438 /* ObjectiveCTraining */,
-				73FCEE401C86D480005C4438 /* ObjectiveCTrainingTests */,
-				73FCEE4B1C86D480005C4438 /* ObjectiveCTrainingUITests */,
+				7386498A1C88572C0048827C /* ObjectiveCtraining */,
+				738649A31C88572D0048827C /* ObjectiveCtrainingTests */,
+				738649AE1C88572D0048827C /* ObjectiveCtrainingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		73FCEE231C86D480005C4438 /* Resources */ = {
+		738649891C88572C0048827C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FCEE3B1C86D480005C4438 /* LaunchScreen.storyboard in Resources */,
-				73FCEE381C86D480005C4438 /* Assets.xcassets in Resources */,
-				73FCEE361C86D480005C4438 /* Main.storyboard in Resources */,
+				7386499E1C88572D0048827C /* LaunchScreen.storyboard in Resources */,
+				7386499B1C88572D0048827C /* Assets.xcassets in Resources */,
+				738649991C88572D0048827C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73FCEE3F1C86D480005C4438 /* Resources */ = {
+		738649A21C88572D0048827C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73FCEE4A1C86D480005C4438 /* Resources */ = {
+		738649AD1C88572D0048827C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,61 +269,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		73FCEE211C86D480005C4438 /* Sources */ = {
+		738649871C88572C0048827C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FCEE2D1C86D480005C4438 /* AppDelegate.m in Sources */,
-				73FCEE301C86D480005C4438 /* MasterViewController.m in Sources */,
-				73FCEE2A1C86D480005C4438 /* main.m in Sources */,
-				73FCEE331C86D480005C4438 /* DetailViewController.m in Sources */,
+				738649961C88572D0048827C /* ViewController.m in Sources */,
+				738649931C88572D0048827C /* AppDelegate.m in Sources */,
+				738649901C88572D0048827C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73FCEE3D1C86D480005C4438 /* Sources */ = {
+		738649A01C88572D0048827C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FCEE461C86D480005C4438 /* ObjectiveCTrainingTests.m in Sources */,
+				738649A91C88572D0048827C /* ObjectiveCtrainingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73FCEE481C86D480005C4438 /* Sources */ = {
+		738649AB1C88572D0048827C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FCEE511C86D480005C4438 /* ObjectiveCTrainingUITests.m in Sources */,
+				738649B41C88572D0048827C /* ObjectiveCtrainingUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		73FCEE431C86D480005C4438 /* PBXTargetDependency */ = {
+		738649A61C88572D0048827C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 73FCEE241C86D480005C4438 /* ObjectiveCTraining */;
-			targetProxy = 73FCEE421C86D480005C4438 /* PBXContainerItemProxy */;
+			target = 7386498A1C88572C0048827C /* ObjectiveCtraining */;
+			targetProxy = 738649A51C88572D0048827C /* PBXContainerItemProxy */;
 		};
-		73FCEE4E1C86D480005C4438 /* PBXTargetDependency */ = {
+		738649B11C88572D0048827C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 73FCEE241C86D480005C4438 /* ObjectiveCTraining */;
-			targetProxy = 73FCEE4D1C86D480005C4438 /* PBXContainerItemProxy */;
+			target = 7386498A1C88572C0048827C /* ObjectiveCtraining */;
+			targetProxy = 738649B01C88572D0048827C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		73FCEE341C86D480005C4438 /* Main.storyboard */ = {
+		738649971C88572D0048827C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				73FCEE351C86D480005C4438 /* Base */,
+				738649981C88572D0048827C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		73FCEE391C86D480005C4438 /* LaunchScreen.storyboard */ = {
+		7386499C1C88572D0048827C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				73FCEE3A1C86D480005C4438 /* Base */,
+				7386499D1C88572D0048827C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -336,7 +330,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		73FCEE531C86D480005C4438 /* Debug */ = {
+		738649B61C88572D0048827C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +374,7 @@
 			};
 			name = Debug;
 		};
-		73FCEE541C86D480005C4438 /* Release */ = {
+		738649B71C88572D0048827C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,76 +412,72 @@
 			};
 			name = Release;
 		};
-		73FCEE561C86D480005C4438 /* Debug */ = {
+		738649B91C88572D0048827C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ObjectiveCTraining/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				INFOPLIST_FILE = ObjectiveCtraining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCTraining;
+				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCtraining;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		73FCEE571C86D480005C4438 /* Release */ = {
+		738649BA1C88572D0048827C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ObjectiveCTraining/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				INFOPLIST_FILE = ObjectiveCtraining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCTraining;
+				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCtraining;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		73FCEE591C86D480005C4438 /* Debug */ = {
+		738649BC1C88572D0048827C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ObjectiveCTrainingTests/Info.plist;
+				INFOPLIST_FILE = ObjectiveCtrainingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCTrainingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCtrainingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCTraining.app/ObjectiveCTraining";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCtraining.app/ObjectiveCtraining";
 			};
 			name = Debug;
 		};
-		73FCEE5A1C86D480005C4438 /* Release */ = {
+		738649BD1C88572D0048827C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ObjectiveCTrainingTests/Info.plist;
+				INFOPLIST_FILE = ObjectiveCtrainingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCTrainingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCtrainingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCTraining.app/ObjectiveCTraining";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCtraining.app/ObjectiveCtraining";
 			};
 			name = Release;
 		};
-		73FCEE5C1C86D480005C4438 /* Debug */ = {
+		738649BF1C88572D0048827C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = ObjectiveCTrainingUITests/Info.plist;
+				INFOPLIST_FILE = ObjectiveCtrainingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCTrainingUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCtrainingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ObjectiveCTraining;
+				TEST_TARGET_NAME = ObjectiveCtraining;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		73FCEE5D1C86D480005C4438 /* Release */ = {
+		738649C01C88572D0048827C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = ObjectiveCTrainingUITests/Info.plist;
+				INFOPLIST_FILE = ObjectiveCtrainingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCTrainingUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = AdeptaLibertate.ObjectiveCtrainingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ObjectiveCTraining;
+				TEST_TARGET_NAME = ObjectiveCtraining;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -495,40 +485,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73FCEE201C86D47F005C4438 /* Build configuration list for PBXProject "ObjectiveCTraining" */ = {
+		738649861C88572C0048827C /* Build configuration list for PBXProject "ObjectiveCtraining" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73FCEE531C86D480005C4438 /* Debug */,
-				73FCEE541C86D480005C4438 /* Release */,
+				738649B61C88572D0048827C /* Debug */,
+				738649B71C88572D0048827C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73FCEE551C86D480005C4438 /* Build configuration list for PBXNativeTarget "ObjectiveCTraining" */ = {
+		738649B81C88572D0048827C /* Build configuration list for PBXNativeTarget "ObjectiveCtraining" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73FCEE561C86D480005C4438 /* Debug */,
-				73FCEE571C86D480005C4438 /* Release */,
+				738649B91C88572D0048827C /* Debug */,
+				738649BA1C88572D0048827C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		73FCEE581C86D480005C4438 /* Build configuration list for PBXNativeTarget "ObjectiveCTrainingTests" */ = {
+		738649BB1C88572D0048827C /* Build configuration list for PBXNativeTarget "ObjectiveCtrainingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73FCEE591C86D480005C4438 /* Debug */,
-				73FCEE5A1C86D480005C4438 /* Release */,
+				738649BC1C88572D0048827C /* Debug */,
+				738649BD1C88572D0048827C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		73FCEE5B1C86D480005C4438 /* Build configuration list for PBXNativeTarget "ObjectiveCTrainingUITests" */ = {
+		738649BE1C88572D0048827C /* Build configuration list for PBXNativeTarget "ObjectiveCtrainingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73FCEE5C1C86D480005C4438 /* Debug */,
-				73FCEE5D1C86D480005C4438 /* Release */,
+				738649BF1C88572D0048827C /* Debug */,
+				738649C01C88572D0048827C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 73FCEE1D1C86D47F005C4438 /* Project object */;
+	rootObject = 738649831C88572C0048827C /* Project object */;
 }

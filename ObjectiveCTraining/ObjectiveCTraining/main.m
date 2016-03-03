@@ -1,8 +1,8 @@
 //
 //  main.m
-//  ObjectiveCTraining
+//  ObjectiveCtraining
 //
-//  Created by Moon on 2016. 3. 2..
+//  Created by Moon on 2016. 3. 3..
 //  Copyright © 2016년 Moon. All rights reserved.
 //
 

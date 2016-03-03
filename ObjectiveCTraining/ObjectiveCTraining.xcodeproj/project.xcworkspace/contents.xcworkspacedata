@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ObjectiveCTraining.xcodeproj">
+      location = "self:ObjectiveCtraining.xcodeproj">
    </FileRef>
 </Workspace>

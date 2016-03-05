@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)EmptyTextView:(id)sender;
 
 @end
 

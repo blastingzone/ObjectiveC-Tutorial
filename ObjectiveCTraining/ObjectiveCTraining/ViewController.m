@@ -26,5 +26,6 @@
 
 - (IBAction)EmptyTextView:(id)sender {
     NSLog(@"Empty Text Button Touched");
+    _TextViewer.text = @"";
 }
 @end

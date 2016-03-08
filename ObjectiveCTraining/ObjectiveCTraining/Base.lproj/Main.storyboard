@@ -61,6 +61,7 @@
                     </view>
                     <connections>
                         <outlet property="TextViewer" destination="LuP-BJ-Mgc" id="P82-Ls-1aE"/>
+                        <outlet property="emptyTextViewerButton" destination="jQv-Wx-DBt" id="pck-lX-PQn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

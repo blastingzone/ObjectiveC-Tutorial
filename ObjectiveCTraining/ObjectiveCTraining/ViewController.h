@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextView *TextViewer;
+@property (weak, nonatomic) IBOutlet UIButton *emptyTextViewerButton;
 
 - (IBAction)EmptyTextView:(id)sender;
 

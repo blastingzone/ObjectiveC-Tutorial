@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Social/Social.h"
 
 @interface ViewController ()
 
@@ -28,5 +29,14 @@
     NSLog(@"Empty Text Button Touched");
     _TextViewer.text = @"";
     [_emptyTextViewerButton setEnabled:false];
+}
+
+- (IBAction)TweetMessage:(id)sender {
+    SLComposeViewController *composer = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    
+    [composer setInitialText:self.TextViewer.text];
+    [self presentViewController:composer
+                       animated:YES completion:nil];
+    
 }
 @end

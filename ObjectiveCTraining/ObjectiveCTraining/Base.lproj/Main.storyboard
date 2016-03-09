@@ -38,6 +38,17 @@
                                     <action selector="EmptyTextView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="68S-z4-xQK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmN-0B-GE4">
+                                <rect key="frame" x="279" y="323" width="42" height="30"/>
+                                <state key="normal" title="Tweet"/>
+                                <connections>
+                                    <action selector="TweetMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CPs-Yd-82h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ts-7A-KHU">
+                                <rect key="frame" x="267" y="361" width="67" height="30"/>
+                                <state key="normal" title="Facebook"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -46,10 +57,14 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LuP-BJ-Mgc" secondAttribute="bottom" constant="329" id="Gjw-3L-qVe"/>
                             <constraint firstItem="LuP-BJ-Mgc" firstAttribute="top" secondItem="IAz-Oc-cXP" secondAttribute="bottom" constant="50" id="Kch-rZ-4md"/>
                             <constraint firstAttribute="leadingMargin" secondItem="IAz-Oc-cXP" secondAttribute="leading" id="NO0-ov-0xG"/>
+                            <constraint firstItem="0Ts-7A-KHU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TJL-3G-cnk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LuP-BJ-Mgc" secondAttribute="trailing" id="WdL-Xp-H7r"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LuP-BJ-Mgc" secondAttribute="trailing" id="bdp-DY-Y44"/>
+                            <constraint firstItem="0Ts-7A-KHU" firstAttribute="top" secondItem="hmN-0B-GE4" secondAttribute="bottom" constant="8" id="eoe-u5-SsT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LuP-BJ-Mgc" secondAttribute="trailing" constant="145" id="ioF-n0-Waz"/>
                             <constraint firstItem="IAz-Oc-cXP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="nb8-eN-xGf"/>
+                            <constraint firstItem="hmN-0B-GE4" firstAttribute="top" secondItem="jQv-Wx-DBt" secondAttribute="bottom" constant="8" id="oPY-y3-auz"/>
+                            <constraint firstItem="hmN-0B-GE4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s1z-26-mR2"/>
                             <constraint firstItem="jQv-Wx-DBt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wPs-Sh-mu0"/>
                         </constraints>
                         <variation key="default">

@@ -14,5 +14,7 @@
 
 - (IBAction)EmptyTextView:(id)sender;
 
+- (IBAction)TweetMessage:(id)sender;
+
 @end
 

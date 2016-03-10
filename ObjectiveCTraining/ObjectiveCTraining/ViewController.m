@@ -39,4 +39,12 @@
                        animated:YES completion:nil];
     
 }
+
+- (IBAction)FacebookMessage:(id)sender {
+    SLComposeViewController *composer = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+    
+    [composer setInitialText:self.TextViewer.text];
+    [self presentViewController:composer
+                       animated:YES completion:nil];
+}
 @end

@@ -48,6 +48,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ts-7A-KHU">
                                 <rect key="frame" x="267" y="361" width="67" height="30"/>
                                 <state key="normal" title="Facebook"/>
+                                <connections>
+                                    <action selector="FacebookMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yVc-wT-lE4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I7O-k8-alo">
+                                <rect key="frame" x="20" y="239" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ConstTop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poX-4c-K9r">
+                                <rect key="frame" x="24" y="212" width="73.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGq-ov-WMZ">
+                                <rect key="frame" x="20" y="283" width="560" height="30"/>
+                                <state key="normal" title="Send"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gHS-3P-Dxs">
+                                <rect key="frame" x="20" y="28" width="560" height="182"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35a-bh-JTJ">
+                                <rect key="frame" x="20" y="345" width="44" height="30"/>
+                                <state key="normal" title="Hello~"/>
+                                <connections>
+                                    <action selector="showAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wuy-7b-plP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="gHS-3P-Dxs" secondAttribute="trailing" id="6MY-RB-4uY"/>
+                            <constraint firstItem="yGq-ov-WMZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8Ve-y1-ndr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I7O-k8-alo" secondAttribute="trailing" id="D9A-y4-Qad"/>
+                            <constraint firstItem="poX-4c-K9r" firstAttribute="top" secondItem="gHS-3P-Dxs" secondAttribute="bottom" constant="2" id="Hbr-oJ-MpL"/>
+                            <constraint firstItem="gHS-3P-Dxs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="OiP-LP-ZAT"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="35a-bh-JTJ" secondAttribute="leading" id="QqE-hm-KKS"/>
+                            <constraint firstItem="35a-bh-JTJ" firstAttribute="top" secondItem="yGq-ov-WMZ" secondAttribute="bottom" constant="32" id="U3j-XO-O6S"/>
+                            <constraint firstItem="poX-4c-K9r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="UEQ-mn-9wT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yGq-ov-WMZ" secondAttribute="trailing" id="VFH-Pc-HTS"/>
+                            <constraint firstItem="I7O-k8-alo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="Wi9-BE-ygi"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="gHS-3P-Dxs" secondAttribute="leading" id="Wkt-sc-ocn"/>
+                            <constraint firstItem="I7O-k8-alo" firstAttribute="top" secondItem="poX-4c-K9r" secondAttribute="bottom" constant="7" id="ckJ-i4-fsV"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="I7O-k8-alo" secondAttribute="leading" id="rj7-wE-QJG"/>
+                            <constraint firstItem="poX-4c-K9r" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="192" id="vQb-y5-mJX"/>
+                            <constraint firstItem="yGq-ov-WMZ" firstAttribute="top" secondItem="I7O-k8-alo" secondAttribute="bottom" constant="14" id="yOT-xZ-GUt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Wi9-BE-ygi"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="helloBtn" destination="35a-bh-JTJ" id="3O0-Da-NeH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="619"/>
+        </scene>
+    </scenes>
+</document>

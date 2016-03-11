@@ -34,7 +34,9 @@
 - (IBAction)TweetMessage:(id)sender {
     SLComposeViewController *composer = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
     
-    [composer setInitialText:self.TextViewer.text];
+    NSString *tweetMsg = [NSString stringWithFormat:@"%@#HashTag", self.TextViewer.text];
+    
+    [composer setInitialText:tweetMsg];
     [self presentViewController:composer
                        animated:YES completion:nil];
     

@@ -16,6 +16,7 @@
 		738649A91C88572D0048827C /* ObjectiveCtrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 738649A81C88572D0048827C /* ObjectiveCtrainingTests.m */; };
 		738649B41C88572D0048827C /* ObjectiveCtrainingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 738649B31C88572D0048827C /* ObjectiveCtrainingUITests.m */; };
 		73AC08001C96FAFE00606472 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AC07FF1C96FAFE00606472 /* Album.m */; };
+		73EB7D6A1C99AAA50056B9E1 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB7D691C99AAA50056B9E1 /* AlbumDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		738649B51C88572D0048827C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73AC07FE1C96FAFE00606472 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		73AC07FF1C96FAFE00606472 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		73EB7D681C99AAA50056B9E1 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
+		73EB7D691C99AAA50056B9E1 /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				7386498E1C88572D0048827C /* Supporting Files */,
 				73AC07FE1C96FAFE00606472 /* Album.h */,
 				73AC07FF1C96FAFE00606472 /* Album.m */,
+				73EB7D681C99AAA50056B9E1 /* AlbumDataController.h */,
+				73EB7D691C99AAA50056B9E1 /* AlbumDataController.m */,
 			);
 			path = ObjectiveCtraining;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73EB7D6A1C99AAA50056B9E1 /* AlbumDataController.m in Sources */,
 				738649961C88572D0048827C /* ViewController.m in Sources */,
 				738649931C88572D0048827C /* AppDelegate.m in Sources */,
 				738649901C88572D0048827C /* main.m in Sources */,

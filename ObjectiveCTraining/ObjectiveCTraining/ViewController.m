@@ -8,12 +8,15 @@
 
 #import "ViewController.h"
 #import "Social/Social.h"
+#import "Album.h"
+#import "AlbumDataController.h"
 
 @interface ViewController ()
-
+ @property (nonatomic, strong) AlbumDataController *albumDataController;
 @end
 
 @implementation ViewController
+ 
 
 - (void)viewDidLoad {
     [super viewDidLoad];

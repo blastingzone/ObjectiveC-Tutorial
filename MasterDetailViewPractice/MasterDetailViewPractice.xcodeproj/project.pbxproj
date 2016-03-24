@@ -16,6 +16,8 @@
 		735E41111CA2EEAE00D2653C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735E410F1CA2EEAE00D2653C /* LaunchScreen.storyboard */; };
 		735E411C1CA2EEAE00D2653C /* MasterDetailViewPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735E411B1CA2EEAE00D2653C /* MasterDetailViewPracticeTests.m */; };
 		735E41271CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735E41261CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m */; };
+		D5495B271CA45A6D00ACED35 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B241CA45A6D00ACED35 /* Album.m */; };
+		D5495B281CA45A6D00ACED35 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B261CA45A6D00ACED35 /* AlbumDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		735E41221CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterDetailViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735E41261CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterDetailViewPracticeUITests.m; sourceTree = "<group>"; };
 		735E41281CA2EEAE00D2653C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5495B231CA45A6D00ACED35 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		D5495B241CA45A6D00ACED35 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		D5495B251CA45A6D00ACED35 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
+		D5495B261CA45A6D00ACED35 /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,10 @@
 		735E40FD1CA2EEAE00D2653C /* MasterDetailViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D5495B231CA45A6D00ACED35 /* Album.h */,
+				D5495B241CA45A6D00ACED35 /* Album.m */,
+				D5495B251CA45A6D00ACED35 /* AlbumDataController.h */,
+				D5495B261CA45A6D00ACED35 /* AlbumDataController.m */,
 				735E41011CA2EEAE00D2653C /* AppDelegate.h */,
 				735E41021CA2EEAE00D2653C /* AppDelegate.m */,
 				735E41041CA2EEAE00D2653C /* MasterViewController.h */,
@@ -279,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				735E41031CA2EEAE00D2653C /* AppDelegate.m in Sources */,
+				D5495B281CA45A6D00ACED35 /* AlbumDataController.m in Sources */,
 				735E41061CA2EEAE00D2653C /* MasterViewController.m in Sources */,
 				735E41001CA2EEAE00D2653C /* main.m in Sources */,
+				D5495B271CA45A6D00ACED35 /* Album.m in Sources */,
 				735E41091CA2EEAE00D2653C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +519,7 @@
 				735E412D1CA2EEAE00D2653C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735E412E1CA2EEAE00D2653C /* Build configuration list for PBXNativeTarget "MasterDetailViewPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				735E41301CA2EEAE00D2653C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735E41311CA2EEAE00D2653C /* Build configuration list for PBXNativeTarget "MasterDetailViewPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				735E41331CA2EEAE00D2653C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

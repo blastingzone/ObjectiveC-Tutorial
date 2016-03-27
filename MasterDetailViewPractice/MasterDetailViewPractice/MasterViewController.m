@@ -8,13 +8,21 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "AlbumDataController.h"
+#import "Album.h"
 
 @interface MasterViewController ()
 
+@property (nonatomic, strong) AlbumDataController *albumDataController;
 @property NSMutableArray *objects;
 @end
 
 @implementation MasterViewController
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    self.albumDataController = [[AlbumDataController alloc] init];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -38,9 +46,9 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = self.objects[indexPath.row];
+        Album *album = [self.albumDataController albumAtIndex:indexPath.row];
         DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
-        [controller setDetailItem:object];
+        [controller setDetailItem:album];
         controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
         controller.navigationItem.leftItemsSupplementBackButton = YES;
     }
@@ -53,14 +61,15 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.objects.count;
+    return [self.albumDataController albumCount];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
 
-    NSDate *object = self.objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    Album *album = [self.albumDataController albumAtIndex:indexPath.row];
+    
+    cell.textLabel.text = album.title;
     return cell;
 }
 

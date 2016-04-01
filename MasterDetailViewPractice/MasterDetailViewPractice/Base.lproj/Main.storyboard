@@ -83,6 +83,7 @@
                                     <outlet property="albumPriceLabel" destination="1iC-vO-FUe" id="eIH-Rm-cGA"/>
                                     <outlet property="albumSummaryLabel" destination="NmL-Iw-Pzk" id="hrn-1n-f6k"/>
                                     <outlet property="albumTitleLabel" destination="ZTS-uV-KHs" id="BhH-vf-KVZ"/>
+                                    <segue destination="e3c-FK-9MC" kind="show" identifier="ShowAlbumDetails" id="8EJ-gR-uQ4"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -122,7 +123,7 @@
                             <tableViewSection id="GqU-XS-ECv">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="gdH-qN-FaZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+                                        <rect key="frame" x="0.0" y="64" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gdH-qN-FaZ" id="UZ1-S4-ltF">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
@@ -164,7 +165,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="STi-wP-Qox" detailTextLabel="fo1-vP-gF0" rowHeight="30" style="IBUITableViewCellStyleValue2" id="S0L-lR-sIZ">
-                                        <rect key="frame" x="0.0" y="100" width="600" height="30"/>
+                                        <rect key="frame" x="0.0" y="164" width="600" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S0L-lR-sIZ" id="8VR-dL-wLc">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="29"/>
@@ -188,7 +189,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="vYg-ar-e2J" detailTextLabel="vg9-oZ-zoN" rowHeight="30" style="IBUITableViewCellStyleValue2" id="ALz-nc-WpL">
-                                        <rect key="frame" x="0.0" y="130" width="600" height="30"/>
+                                        <rect key="frame" x="0.0" y="194" width="600" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ALz-nc-WpL" id="PGo-gx-rBz">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="29"/>
@@ -212,13 +213,13 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="kKw-R7-dAh">
-                                        <rect key="frame" x="0.0" y="160" width="600" height="150"/>
+                                        <rect key="frame" x="0.0" y="224" width="600" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kKw-R7-dAh" id="uH2-xm-bda">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="149"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9hL-bj-c9q">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9hL-bj-c9q">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -226,7 +227,15 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9hL-bj-c9q" firstAttribute="leading" secondItem="uH2-xm-bda" secondAttribute="leading" id="UIb-Dd-bq4"/>
+                                                <constraint firstItem="9hL-bj-c9q" firstAttribute="top" secondItem="uH2-xm-bda" secondAttribute="top" id="my4-cX-gX2"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <constraints>
+                                            <constraint firstItem="9hL-bj-c9q" firstAttribute="width" secondItem="kKw-R7-dAh" secondAttribute="width" id="2Qh-kf-82D"/>
+                                            <constraint firstItem="9hL-bj-c9q" firstAttribute="height" secondItem="kKw-R7-dAh" secondAttribute="height" id="Xs6-Mi-EX6"/>
+                                        </constraints>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -236,6 +245,13 @@
                             <outlet property="delegate" destination="e3c-FK-9MC" id="Zt0-hC-zYV"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="albumTitleLabel" destination="F4z-cv-SRQ" id="i77-XB-nfv"/>
+                        <outlet property="artistLabel" destination="fo1-vP-gF0" id="zRg-eb-5BP"/>
+                        <outlet property="descriptionTextView" destination="9hL-bj-c9q" id="jl7-Py-OoQ"/>
+                        <outlet property="locationLabel" destination="vg9-oZ-zoN" id="o3V-ag-cMr"/>
+                        <outlet property="priceLabel" destination="GXA-hJ-LGb" id="peC-67-8nJ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iza-kz-CE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

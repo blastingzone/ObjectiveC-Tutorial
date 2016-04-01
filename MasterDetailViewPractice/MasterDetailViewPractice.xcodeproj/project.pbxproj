@@ -16,6 +16,7 @@
 		735E41111CA2EEAE00D2653C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735E410F1CA2EEAE00D2653C /* LaunchScreen.storyboard */; };
 		735E411C1CA2EEAE00D2653C /* MasterDetailViewPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735E411B1CA2EEAE00D2653C /* MasterDetailViewPracticeTests.m */; };
 		735E41271CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735E41261CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m */; };
+		737D4AF61CAEE7BB00EEDE62 /* AlbumArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */; };
 		D5495B271CA45A6D00ACED35 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B241CA45A6D00ACED35 /* Album.m */; };
 		D5495B281CA45A6D00ACED35 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B261CA45A6D00ACED35 /* AlbumDataController.m */; };
 		D5495B2B1CA8FD0E00ACED35 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B2A1CA8FD0E00ACED35 /* AlbumTableViewCell.m */; };
@@ -57,6 +58,7 @@
 		735E41221CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterDetailViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735E41261CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterDetailViewPracticeUITests.m; sourceTree = "<group>"; };
 		735E41281CA2EEAE00D2653C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlbumArray.plist; sourceTree = "<group>"; };
 		D5495B231CA45A6D00ACED35 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		D5495B241CA45A6D00ACED35 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		D5495B251CA45A6D00ACED35 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				735E40FE1CA2EEAE00D2653C /* Supporting Files */,
 				D5495B291CA8FD0E00ACED35 /* AlbumTableViewCell.h */,
 				D5495B2A1CA8FD0E00ACED35 /* AlbumTableViewCell.m */,
+				737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */,
 			);
 			path = MasterDetailViewPractice;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				735E41111CA2EEAE00D2653C /* LaunchScreen.storyboard in Resources */,
 				735E410E1CA2EEAE00D2653C /* Assets.xcassets in Resources */,
+				737D4AF61CAEE7BB00EEDE62 /* AlbumArray.plist in Resources */,
 				735E410C1CA2EEAE00D2653C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

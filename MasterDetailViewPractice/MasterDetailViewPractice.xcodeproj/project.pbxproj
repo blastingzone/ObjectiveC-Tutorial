@@ -17,6 +17,7 @@
 		735E411C1CA2EEAE00D2653C /* MasterDetailViewPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735E411B1CA2EEAE00D2653C /* MasterDetailViewPracticeTests.m */; };
 		735E41271CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735E41261CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m */; };
 		737D4AF61CAEE7BB00EEDE62 /* AlbumArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */; };
+		737D4AF91CB0539200EEDE62 /* AlbumDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 737D4AF71CB0539200EEDE62 /* AlbumDataModel.xcdatamodeld */; };
 		D5495B271CA45A6D00ACED35 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B241CA45A6D00ACED35 /* Album.m */; };
 		D5495B281CA45A6D00ACED35 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B261CA45A6D00ACED35 /* AlbumDataController.m */; };
 		D5495B2B1CA8FD0E00ACED35 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B2A1CA8FD0E00ACED35 /* AlbumTableViewCell.m */; };
@@ -59,6 +60,7 @@
 		735E41261CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterDetailViewPracticeUITests.m; sourceTree = "<group>"; };
 		735E41281CA2EEAE00D2653C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlbumArray.plist; sourceTree = "<group>"; };
+		737D4AF81CB0539200EEDE62 /* AlbumDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlbumDataModel.xcdatamodel; sourceTree = "<group>"; };
 		D5495B231CA45A6D00ACED35 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		D5495B241CA45A6D00ACED35 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		D5495B251CA45A6D00ACED35 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				D5495B291CA8FD0E00ACED35 /* AlbumTableViewCell.h */,
 				D5495B2A1CA8FD0E00ACED35 /* AlbumTableViewCell.m */,
 				737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */,
+				737D4AF71CB0539200EEDE62 /* AlbumDataModel.xcdatamodeld */,
 			);
 			path = MasterDetailViewPractice;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				D5495B2B1CA8FD0E00ACED35 /* AlbumTableViewCell.m in Sources */,
 				D5495B271CA45A6D00ACED35 /* Album.m in Sources */,
 				735E41091CA2EEAE00D2653C /* DetailViewController.m in Sources */,
+				737D4AF91CB0539200EEDE62 /* AlbumDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +554,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		737D4AF71CB0539200EEDE62 /* AlbumDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				737D4AF81CB0539200EEDE62 /* AlbumDataModel.xcdatamodel */,
+			);
+			currentVersion = 737D4AF81CB0539200EEDE62 /* AlbumDataModel.xcdatamodel */;
+			path = AlbumDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 735E40F31CA2EEAE00D2653C /* Project object */;
 }

@@ -18,6 +18,8 @@
 		735E41271CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735E41261CA2EEAE00D2653C /* MasterDetailViewPracticeUITests.m */; };
 		737D4AF61CAEE7BB00EEDE62 /* AlbumArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */; };
 		737D4AF91CB0539200EEDE62 /* AlbumDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 737D4AF71CB0539200EEDE62 /* AlbumDataModel.xcdatamodeld */; };
+		737D4AFE1CB2D10300EEDE62 /* Show+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D4AFB1CB2D10300EEDE62 /* Show+CoreDataProperties.m */; };
+		737D4AFF1CB2D10300EEDE62 /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D4AFD1CB2D10300EEDE62 /* Show.m */; };
 		D5495B271CA45A6D00ACED35 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B241CA45A6D00ACED35 /* Album.m */; };
 		D5495B281CA45A6D00ACED35 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B261CA45A6D00ACED35 /* AlbumDataController.m */; };
 		D5495B2B1CA8FD0E00ACED35 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5495B2A1CA8FD0E00ACED35 /* AlbumTableViewCell.m */; };
@@ -61,6 +63,10 @@
 		735E41281CA2EEAE00D2653C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlbumArray.plist; sourceTree = "<group>"; };
 		737D4AF81CB0539200EEDE62 /* AlbumDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlbumDataModel.xcdatamodel; sourceTree = "<group>"; };
+		737D4AFA1CB2D10300EEDE62 /* Show+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Show+CoreDataProperties.h"; sourceTree = "<group>"; };
+		737D4AFB1CB2D10300EEDE62 /* Show+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Show+CoreDataProperties.m"; sourceTree = "<group>"; };
+		737D4AFC1CB2D10300EEDE62 /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Show.h; path = ../Show.h; sourceTree = "<group>"; };
+		737D4AFD1CB2D10300EEDE62 /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Show.m; path = ../Show.m; sourceTree = "<group>"; };
 		D5495B231CA45A6D00ACED35 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		D5495B241CA45A6D00ACED35 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		D5495B251CA45A6D00ACED35 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
@@ -97,6 +103,8 @@
 		735E40F21CA2EEAE00D2653C = {
 			isa = PBXGroup;
 			children = (
+				737D4AFA1CB2D10300EEDE62 /* Show+CoreDataProperties.h */,
+				737D4AFB1CB2D10300EEDE62 /* Show+CoreDataProperties.m */,
 				735E40FD1CA2EEAE00D2653C /* MasterDetailViewPractice */,
 				735E411A1CA2EEAE00D2653C /* MasterDetailViewPracticeTests */,
 				735E41251CA2EEAE00D2653C /* MasterDetailViewPracticeUITests */,
@@ -117,6 +125,8 @@
 		735E40FD1CA2EEAE00D2653C /* MasterDetailViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				737D4AFC1CB2D10300EEDE62 /* Show.h */,
+				737D4AFD1CB2D10300EEDE62 /* Show.m */,
 				D5495B231CA45A6D00ACED35 /* Album.h */,
 				D5495B241CA45A6D00ACED35 /* Album.m */,
 				D5495B251CA45A6D00ACED35 /* AlbumDataController.h */,
@@ -300,11 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737D4AFF1CB2D10300EEDE62 /* Show.m in Sources */,
 				735E41031CA2EEAE00D2653C /* AppDelegate.m in Sources */,
 				D5495B281CA45A6D00ACED35 /* AlbumDataController.m in Sources */,
 				735E41061CA2EEAE00D2653C /* MasterViewController.m in Sources */,
 				735E41001CA2EEAE00D2653C /* main.m in Sources */,
 				D5495B2B1CA8FD0E00ACED35 /* AlbumTableViewCell.m in Sources */,
+				737D4AFE1CB2D10300EEDE62 /* Show+CoreDataProperties.m in Sources */,
 				D5495B271CA45A6D00ACED35 /* Album.m in Sources */,
 				735E41091CA2EEAE00D2653C /* DetailViewController.m in Sources */,
 				737D4AF91CB0539200EEDE62 /* AlbumDataModel.xcdatamodeld in Sources */,

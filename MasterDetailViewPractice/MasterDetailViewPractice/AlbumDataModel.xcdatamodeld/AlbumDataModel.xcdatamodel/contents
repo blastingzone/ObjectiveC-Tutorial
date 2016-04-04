@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
-    <entity name="Show" syncable="YES">
+    <entity name="Show" representedClassName="Show" syncable="YES">
         <attribute name="artist" attributeType="String" syncable="YES"/>
         <attribute name="locationInStore" attributeType="String" syncable="YES"/>
         <attribute name="price" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
@@ -8,6 +8,6 @@
         <attribute name="title" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Show" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Show" positionX="-63" positionY="-18" width="128" height="118"/>
     </elements>
 </model>

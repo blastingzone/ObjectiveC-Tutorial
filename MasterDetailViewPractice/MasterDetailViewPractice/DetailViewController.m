@@ -28,11 +28,11 @@
 
 - (void)configureView {
     if (self.detailItem){
-        self.albumTitleLabel.text = self.detailItem.title;
-        self.priceLabel.text = [NSString stringWithFormat:@"$%01.2f", self.detailItem.price];
-        self.artistLabel.text = self.detailItem.artist;
-        self.locationLabel.text = self.detailItem.locationInStore;
-        self.descriptionTextView.text = self.detailItem.summary;
+        self.albumTitleLabel.text = [self.detailItem valueForKey:@"title"];
+        self.priceLabel.text = [NSString stringWithFormat:@"$%01.2f", [[self.detailItem valueForKey:@"price"] floatValue]];
+        self.artistLabel.text = [self.detailItem valueForKey:@"artist"];
+        self.locationLabel.text = [self.detailItem valueForKey:@"locationInStore"];
+        self.descriptionTextView.text = [self.detailItem valueForKey:@"summary"];
         
     }
 }

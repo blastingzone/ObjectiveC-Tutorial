@@ -10,4 +10,6 @@
 
 @interface AlbumInputTableViewController : UITableViewController
 
+- (IBAction)saveAlbumInfo:(id)sender;
+
 @end

@@ -83,4 +83,8 @@
 }
 */
 
+
+- (IBAction)saveAlbumInfo:(id)sender {
+    NSLog(@"Touch Save");
+}
 @end

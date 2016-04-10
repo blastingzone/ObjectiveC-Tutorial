@@ -64,8 +64,8 @@
 		735E41281CA2EEAE00D2653C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		737D4AF51CAEE7BB00EEDE62 /* AlbumArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlbumArray.plist; sourceTree = "<group>"; };
 		737D4AF81CB0539200EEDE62 /* AlbumDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlbumDataModel.xcdatamodel; sourceTree = "<group>"; };
-		737D4AFA1CB2D10300EEDE62 /* Show+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Show+CoreDataProperties.h"; sourceTree = "<group>"; };
-		737D4AFB1CB2D10300EEDE62 /* Show+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Show+CoreDataProperties.m"; sourceTree = "<group>"; };
+		737D4AFA1CB2D10300EEDE62 /* Show+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Show+CoreDataProperties.h"; path = "../Show+CoreDataProperties.h"; sourceTree = "<group>"; };
+		737D4AFB1CB2D10300EEDE62 /* Show+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Show+CoreDataProperties.m"; path = "../Show+CoreDataProperties.m"; sourceTree = "<group>"; };
 		737D4AFC1CB2D10300EEDE62 /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Show.h; path = ../Show.h; sourceTree = "<group>"; };
 		737D4AFD1CB2D10300EEDE62 /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Show.m; path = ../Show.m; sourceTree = "<group>"; };
 		737D4B001CB4278F00EEDE62 /* AlbumInputTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumInputTableViewController.h; sourceTree = "<group>"; };
@@ -106,8 +106,6 @@
 		735E40F21CA2EEAE00D2653C = {
 			isa = PBXGroup;
 			children = (
-				737D4AFA1CB2D10300EEDE62 /* Show+CoreDataProperties.h */,
-				737D4AFB1CB2D10300EEDE62 /* Show+CoreDataProperties.m */,
 				735E40FD1CA2EEAE00D2653C /* MasterDetailViewPractice */,
 				735E411A1CA2EEAE00D2653C /* MasterDetailViewPracticeTests */,
 				735E41251CA2EEAE00D2653C /* MasterDetailViewPracticeUITests */,
@@ -128,6 +126,8 @@
 		735E40FD1CA2EEAE00D2653C /* MasterDetailViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				737D4AFA1CB2D10300EEDE62 /* Show+CoreDataProperties.h */,
+				737D4AFB1CB2D10300EEDE62 /* Show+CoreDataProperties.m */,
 				737D4AFC1CB2D10300EEDE62 /* Show.h */,
 				737D4AFD1CB2D10300EEDE62 /* Show.m */,
 				D5495B231CA45A6D00ACED35 /* Album.h */,

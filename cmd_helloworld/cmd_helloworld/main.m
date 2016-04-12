@@ -8,10 +8,50 @@
 
 #import <Foundation/Foundation.h>
 
+//--- @interface secion
+
+@interface Fraction : NSObject
+
+-(void) print;
+-(void) setNumber: (int) n;
+-(void) setDenominator: (int) d;
+
+@end
+
+//--- @interface secion
+
+@implementation Fraction
+{
+    int numerator;
+    int denominator;
+}
+-(void) print
+{
+    NSLog(@"%i/%i", numerator, denominator);
+}
+-(void) setNumber:(int)n
+{
+    numerator = n;
+}
+-(void) setDenominator:(int)d
+{
+    denominator = d;
+}
+@end
+
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Fraction *fracInstance;
+        
+        fracInstance = [[Fraction alloc] init];
+        
+        [fracInstance setNumber:1];
+        [fracInstance setDenominator:3];
+        
+        NSLog(@"The valud of fracInstance is:");
+        [fracInstance print];
     }
     return 0;
 }

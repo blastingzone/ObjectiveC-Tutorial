@@ -12,6 +12,7 @@
 
 @interface Fraction : NSObject
 
++(int) getAbsInt: (int) val;
 -(void) print;
 -(void) setNumber: (int) n;
 -(void) setDenominator: (int) d;
@@ -24,6 +25,13 @@
 {
     int numerator;
     int denominator;
+}
++(int) getAbsInt:(int)val{
+    if(val < 0) {
+        val *= -1;
+    }
+    
+    return val;
 }
 -(void) print
 {
@@ -47,7 +55,7 @@ int main(int argc, const char * argv[]) {
         
         fracInstance = [[Fraction alloc] init];
         
-        [fracInstance setNumber:1];
+        [fracInstance setNumber: [Fraction getAbsInt:-2]];
         [fracInstance setDenominator:3];
         
         NSLog(@"The valud of fracInstance is:");

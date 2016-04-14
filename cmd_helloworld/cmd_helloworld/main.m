@@ -45,6 +45,14 @@
 {
     denominator = d;
 }
+-(int) numerator
+{
+    return numerator;
+}
+-(int) denominator
+{
+    return denominator;
+}
 @end
 
 
@@ -60,6 +68,9 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"The valud of fracInstance is:");
         [fracInstance print];
+        
+        NSLog(@"Getter test numerator : %i", [fracInstance numerator]);
+        NSLog(@"Getter test denominator : %i", [fracInstance denominator]);
     }
     return 0;
 }

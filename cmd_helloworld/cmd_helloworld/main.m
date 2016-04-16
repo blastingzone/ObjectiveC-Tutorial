@@ -7,55 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-//--- @interface secion
-
-@interface Fraction : NSObject
-
-+(int) getAbsInt: (int) val;
--(void) print;
--(void) setNumber: (int) n;
--(void) setDenominator: (int) d;
-
-@end
-
-//--- @interface secion
-
-@implementation Fraction
-{
-    int numerator;
-    int denominator;
-}
-+(int) getAbsInt:(int)val{
-    if(val < 0) {
-        val *= -1;
-    }
-    
-    return val;
-}
--(void) print
-{
-    NSLog(@"%i/%i", numerator, denominator);
-}
--(void) setNumber:(int)n
-{
-    numerator = n;
-}
--(void) setDenominator:(int)d
-{
-    denominator = d;
-}
--(int) numerator
-{
-    return numerator;
-}
--(int) denominator
-{
-    return denominator;
-}
-@end
-
-
+#import "Fraction.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -71,6 +23,11 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"Getter test numerator : %i", [fracInstance numerator]);
         NSLog(@"Getter test denominator : %i", [fracInstance denominator]);
+        
+        int year;
+        NSLog(@"user input : ");
+        scanf("%i", &year);
+        NSLog(@"year : %i", year);
     }
     return 0;
 }

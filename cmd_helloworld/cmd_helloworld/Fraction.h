@@ -12,11 +12,11 @@
 
 @interface Fraction : NSObject
 
+@property int numerator, denominator;
+
 +(int) getAbsInt: (int) val;
 -(void) print;
 -(void) setNumber: (int) n;
 -(void) setDenominator: (int) d;
--(int) numerator;
--(int) denominator;
 
 @end

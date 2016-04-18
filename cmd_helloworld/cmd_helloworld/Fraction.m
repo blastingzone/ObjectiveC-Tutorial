@@ -12,8 +12,7 @@
 
 @implementation Fraction
 {
-    int numerator;
-    int denominator;
+    
 }
 +(int) getAbsInt:(int)val{
     if(val < 0) {
@@ -24,22 +23,6 @@
 }
 -(void) print
 {
-    NSLog(@"%i/%i", numerator, denominator);
-}
--(void) setNumber:(int)n
-{
-    numerator = n;
-}
--(void) setDenominator:(int)d
-{
-    denominator = d;
-}
--(int) numerator
-{
-    return numerator;
-}
--(int) denominator
-{
-    return denominator;
+    NSLog(@"%i/%i", _numerator, _denominator);
 }
 @end

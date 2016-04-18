@@ -16,7 +16,5 @@
 
 +(int) getAbsInt: (int) val;
 -(void) print;
--(void) setNumber: (int) n;
--(void) setDenominator: (int) d;
 
 @end

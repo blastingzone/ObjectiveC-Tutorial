@@ -15,14 +15,14 @@ int main(int argc, const char * argv[]) {
         
         fracInstance = [[Fraction alloc] init];
         
-        [fracInstance setNumber: [Fraction getAbsInt:-2]];
-        [fracInstance setDenominator:3];
+        fracInstance.numerator = [Fraction getAbsInt:-2];
+        fracInstance.denominator = 3;
         
         NSLog(@"The valud of fracInstance is:");
         [fracInstance print];
         
-        NSLog(@"Getter test numerator : %i", [fracInstance numerator]);
-        NSLog(@"Getter test denominator : %i", [fracInstance denominator]);
+        NSLog(@"Getter test numerator : %i", fracInstance.numerator);
+        NSLog(@"Getter test denominator : %i", fracInstance.denominator);
         
         int year;
         NSLog(@"user input : ");

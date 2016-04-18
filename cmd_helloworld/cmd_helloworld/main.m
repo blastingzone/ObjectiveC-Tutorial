@@ -24,10 +24,16 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Getter test numerator : %i", fracInstance.numerator);
         NSLog(@"Getter test denominator : %i", fracInstance.denominator);
         
-        int year;
-        NSLog(@"user input : ");
-        scanf("%i", &year);
-        NSLog(@"year : %i", year);
+        NSLog(@" === 2 Parameter Test === ");
+        int numerator, denominator;
+        NSLog(@" Input First : ");
+        scanf("%i", &numerator);
+        NSLog(@" Input Second : ");
+        scanf("%i", &denominator);
+        
+        [fracInstance setTo:numerator over:denominator];
+        NSLog(@"The valud of fracInstance is:");
+        [fracInstance print];
     }
     return 0;
 }

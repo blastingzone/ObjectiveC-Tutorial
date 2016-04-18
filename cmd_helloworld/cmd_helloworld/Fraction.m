@@ -14,6 +14,7 @@
 {
     
 }
+// class method
 +(int) getAbsInt:(int)val{
     if(val < 0) {
         val *= -1;
@@ -23,6 +24,11 @@
 }
 -(void) print
 {
-    NSLog(@"%i/%i", _numerator, _denominator);
+    NSLog(@"%i/%i", self.numerator, self.denominator);
+}
+-(void) setTo:(int)n over:(int)d
+{
+    _numerator = n;
+    _denominator = d;
 }
 @end

@@ -8,6 +8,7 @@
 
 #import "Fraction.h"
 
+static int staticCounter;
 //--- @interface secion
 
 @implementation Fraction
@@ -36,5 +37,11 @@
     // add two fractions
     self.numerator = self.numerator * f.denominator + self.denominator * f.numerator;
     self.denominator = self.denominator * f.denominator;
+}
+-(int) increaseCommonCounter
+{
+    staticCounter++;
+    
+    return staticCounter;
 }
 @end

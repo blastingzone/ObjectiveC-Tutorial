@@ -26,6 +26,15 @@ int main(int argc, const char * argv[]) {
         
         [fracInstance add:fracInstance];
         [fracInstance print];
+        
+        for(int i = 0; i < 10; ++i)
+        {
+            NSLog(@"count : %i", [fracInstance increaseCommonCounter]);
+        }
+        
+        Fraction *anotherFracInstance = [[Fraction alloc] init];
+        
+        NSLog(@"count : %i", [anotherFracInstance increaseCommonCounter]);
     }
     return 0;
 }

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		737D4B101CBC57F900EEDE62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D4B0F1CBC57F900EEDE62 /* main.m */; };
 		737D4B181CC272D300EEDE62 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D4B171CC272D300EEDE62 /* Fraction.m */; };
+		737D4B1B1CC93A1B00EEDE62 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D4B1A1CC93A1B00EEDE62 /* Shape.m */; };
+		737D4B1E1CC93A3A00EEDE62 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D4B1D1CC93A3A00EEDE62 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		737D4B0F1CBC57F900EEDE62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		737D4B161CC272D300EEDE62 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		737D4B171CC272D300EEDE62 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		737D4B191CC93A1B00EEDE62 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		737D4B1A1CC93A1B00EEDE62 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		737D4B1C1CC93A3A00EEDE62 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		737D4B1D1CC93A3A00EEDE62 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				737D4B0F1CBC57F900EEDE62 /* main.m */,
 				737D4B161CC272D300EEDE62 /* Fraction.h */,
 				737D4B171CC272D300EEDE62 /* Fraction.m */,
+				737D4B191CC93A1B00EEDE62 /* Shape.h */,
+				737D4B1A1CC93A1B00EEDE62 /* Shape.m */,
+				737D4B1C1CC93A3A00EEDE62 /* Circle.h */,
+				737D4B1D1CC93A3A00EEDE62 /* Circle.m */,
 			);
 			path = cmd_helloworld;
 			sourceTree = "<group>";
@@ -123,6 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737D4B1B1CC93A1B00EEDE62 /* Shape.m in Sources */,
+				737D4B1E1CC93A3A00EEDE62 /* Circle.m in Sources */,
 				737D4B101CBC57F900EEDE62 /* main.m in Sources */,
 				737D4B181CC272D300EEDE62 /* Fraction.m in Sources */,
 			);

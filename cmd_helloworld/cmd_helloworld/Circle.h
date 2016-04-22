@@ -10,4 +10,7 @@
 
 @interface Circle : Shape
 
+@property double r;
+
+-(void) setRadius: (double) r;
 @end

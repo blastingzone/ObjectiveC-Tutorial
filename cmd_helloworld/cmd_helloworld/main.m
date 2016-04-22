@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Circle* circleInst = [[Circle alloc] init];
         
+        [circleInst setRadius:3.0];
         NSLog(@"%f", [circleInst getArea]);
     }
     return 0;

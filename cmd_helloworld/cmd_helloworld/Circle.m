@@ -10,4 +10,13 @@
 
 @implementation Circle
 
+-(void) setRadius: (double) r
+{
+    self.r = r;
+}
+// override
+-(double) getArea
+{
+    return self.r * self.r * 3.14;
+}
 @end

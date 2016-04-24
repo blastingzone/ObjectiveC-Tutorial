@@ -9,10 +9,20 @@
 #import "Circle.h"
 
 @implementation Circle
-
+{
+    XYPoint *origin;
+}
 -(void) setRadius: (double) r
 {
     self.r = r;
+}
+-(void) setOrigin:(XYPoint *)pt
+{
+    origin = pt;
+}
+-(XYPoint*) origin
+{
+    return origin;
 }
 // override
 -(double) getArea

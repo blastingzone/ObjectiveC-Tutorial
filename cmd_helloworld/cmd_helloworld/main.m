@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
 #import "Circle.h"
+#import "XYPoint.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -19,6 +20,12 @@ int main(int argc, const char * argv[]) {
         
         circleInst.name = @"Circle Instance";
         NSLog(@"circle name = %@", circleInst.name);
+        
+        //XYPoint origin
+        XYPoint* originPt = [[XYPoint alloc] init];
+        [originPt setX:10 andY:20];
+        [circleInst setOrigin:originPt];
+        NSLog(@"X : %d, Y : %d",circleInst.origin.x, circleInst.origin.y);
     }
     return 0;
 }

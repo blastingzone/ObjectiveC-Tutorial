@@ -8,9 +8,13 @@
 
 #import "Shape.h"
 
+@class XYPoint;
+
 @interface Circle : Shape
 
 @property double r;
 
 -(void) setRadius: (double) r;
+-(void) setOrigin: (XYPoint*) pt;
+-(XYPoint*) origin;
 @end

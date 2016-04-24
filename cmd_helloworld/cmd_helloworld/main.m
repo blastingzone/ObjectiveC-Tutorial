@@ -16,6 +16,9 @@ int main(int argc, const char * argv[]) {
         
         [circleInst setRadius:3.0];
         NSLog(@"%f", [circleInst getArea]);
+        
+        circleInst.name = @"Circle Instance";
+        NSLog(@"circle name = %@", circleInst.name);
     }
     return 0;
 }

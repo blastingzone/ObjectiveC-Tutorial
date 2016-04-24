@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Shape : NSObject
+@property NSString *name;
+
 -(double) getArea;
 @end

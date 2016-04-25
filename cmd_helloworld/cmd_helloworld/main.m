@@ -26,6 +26,10 @@ int main(int argc, const char * argv[]) {
         [originPt setX:10 andY:20];
         [circleInst setOrigin:originPt];
         NSLog(@"X : %d, Y : %d",circleInst.origin.x, circleInst.origin.y);
+        
+        id dataValue;
+        dataValue = circleInst;
+        NSLog(@"%f",[dataValue getArea]);
     }
     return 0;
 }

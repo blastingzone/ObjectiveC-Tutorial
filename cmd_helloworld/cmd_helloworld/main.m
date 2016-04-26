@@ -29,6 +29,11 @@ int main(int argc, const char * argv[]) {
         
         id dataValue;
         dataValue = circleInst;
+        if([dataValue isKindOfClass: [circleInst class]]){
+            NSLog(@"Yes, it's Circle");
+        } else {
+            NSLog(@"No, it's not Circle");
+        }
         NSLog(@"%f",[dataValue getArea]);
     }
     return 0;

@@ -12,6 +12,14 @@
 {
     XYPoint *origin;
 }
+// init class
+-(id)init{
+    self = [super init];
+    if(self){
+        self.setSel = @selector(setOrigin:);
+    }
+    return self;
+}
 -(void) setRadius: (double) r
 {
     self.r = r;

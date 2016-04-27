@@ -30,11 +30,19 @@ int main(int argc, const char * argv[]) {
         id dataValue;
         dataValue = circleInst;
         if([dataValue isKindOfClass: [circleInst class]]){
-            NSLog(@"Yes, it's Circle");
+            NSLog(@"Yes, isKindOfClass Circle");
+            NSLog(@"%f",[dataValue getArea]);
         } else {
             NSLog(@"No, it's not Circle");
         }
-        NSLog(@"%f",[dataValue getArea]);
+        
+        if([dataValue isMemberOfClass:[circleInst class]] == YES){
+            NSLog(@"Yes, isMemberOfClass Circle");
+        }
+        
+        if([dataValue respondsToSelector: circleInst.setSel] == YES){
+            NSLog(@"Yes, respondsToSelector Circle.setSel");
+        }
     }
     return 0;
 }

@@ -13,6 +13,7 @@
 @interface Circle : Shape
 
 @property double r;
+@property SEL setSel;
 
 -(void) setRadius: (double) r;
 -(void) setOrigin: (XYPoint*) pt;

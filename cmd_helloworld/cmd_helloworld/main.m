@@ -32,6 +32,8 @@ int main(int argc, const char * argv[]) {
         [circleInst setAreaToGlobalValue];
         
         NSLog(@"Extern Global Value is : %f", gGlobalMainVal);
+        
+        [circleInst printDirection];
     }
     return 0;
 }

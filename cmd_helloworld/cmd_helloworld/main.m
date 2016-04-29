@@ -11,6 +11,8 @@
 #import "Circle.h"
 #import "XYPoint.h"
 
+float gGlobalMainVal = 10.f;
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Circle* circleInst = [[Circle alloc] init];
@@ -27,22 +29,9 @@ int main(int argc, const char * argv[]) {
         [circleInst setOrigin:originPt];
         NSLog(@"X : %d, Y : %d",circleInst.origin.x, circleInst.origin.y);
         
-        id dataValue;
-        dataValue = circleInst;
-        if([dataValue isKindOfClass: [circleInst class]]){
-            NSLog(@"Yes, isKindOfClass Circle");
-            NSLog(@"%f",[dataValue getArea]);
-        } else {
-            NSLog(@"No, it's not Circle");
-        }
+        [circleInst setAreaToGlobalValue];
         
-        if([dataValue isMemberOfClass:[circleInst class]] == YES){
-            NSLog(@"Yes, isMemberOfClass Circle");
-        }
-        
-        if([dataValue respondsToSelector: circleInst.setSel] == YES){
-            NSLog(@"Yes, respondsToSelector Circle.setSel");
-        }
+        NSLog(@"Extern Global Value is : %f", gGlobalMainVal);
     }
     return 0;
 }

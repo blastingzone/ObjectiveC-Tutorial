@@ -40,6 +40,8 @@ static int staticCounter;
 }
 -(int) increaseCommonCounter
 {
+    extern int staticCounter;
+    
     staticCounter++;
     
     return staticCounter;

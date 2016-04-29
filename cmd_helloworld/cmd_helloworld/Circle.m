@@ -37,4 +37,10 @@
 {
     return self.r * self.r * 3.14;
 }
+-(void) setAreaToGlobalValue
+{
+    extern float gGlobalMainVal;
+    
+    gGlobalMainVal = [self getArea];
+}
 @end

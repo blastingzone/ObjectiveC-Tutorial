@@ -18,4 +18,5 @@
 -(void) setRadius: (double) r;
 -(void) setOrigin: (XYPoint*) pt;
 -(XYPoint*) origin;
+-(void) setAreaToGlobalValue;
 @end

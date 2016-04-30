@@ -13,9 +13,12 @@
 
 float gGlobalMainVal = 10.f;
 
+typedef Circle* Circle_ptr;
+typedef unsigned int Counter;
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Circle* circleInst = [[Circle alloc] init];
+        Circle_ptr circleInst = [[Circle alloc] init];
         
         [circleInst setRadius:3.0];
         NSLog(@"%f", [circleInst getArea]);
@@ -34,6 +37,14 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Extern Global Value is : %f", gGlobalMainVal);
         
         [circleInst printDirection];
+        
+        Counter c;
+        c = 0;
+        while(c < 10)
+        {
+            c++;
+        }
+        NSLog(@"c : %d", c);
     }
     return 0;
 }

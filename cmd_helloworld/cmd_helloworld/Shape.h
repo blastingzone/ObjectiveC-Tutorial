@@ -11,7 +11,7 @@
 @interface Shape : NSObject
 @property NSString *name;
 
-enum direction {up, down, left = 10, right};
+enum direction : unsigned short int {up, down, left = 10, right};
 
 -(double) getArea;
 -(void) printDirection;

@@ -17,7 +17,6 @@
 +(int) getAbsInt: (int) val;
 -(void) print;
 -(void) setTo: (int) n over: (int) d;
--(void) add: (Fraction *) f;
 -(int) increaseCommonCounter;
 
 @end

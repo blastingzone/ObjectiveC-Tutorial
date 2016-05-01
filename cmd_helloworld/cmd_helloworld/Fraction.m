@@ -32,12 +32,6 @@ static int staticCounter;
     _numerator = n;
     _denominator = d;
 }
--(void) add: (Fraction*) f
-{
-    // add two fractions
-    self.numerator = self.numerator * f.denominator + self.denominator * f.numerator;
-    self.denominator = self.denominator * f.denominator;
-}
 -(int) increaseCommonCounter
 {
     extern int staticCounter;

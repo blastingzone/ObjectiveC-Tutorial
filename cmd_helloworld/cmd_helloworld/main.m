@@ -11,9 +11,23 @@
 #import "Circle.h"
 #import "XYPoint.h"
 
+@interface Fraction (MathOps)
+-(void) add: (Fraction *) f;
+@end
+
+@implementation Fraction (MathOps)
+-(void) add: (Fraction*) f
+{
+    // add two fractions
+    self.numerator = self.numerator * f.denominator + self.denominator * f.numerator;
+    self.denominator = self.denominator * f.denominator;
+}
+@end
+
 float gGlobalMainVal = 10.f;
 
 typedef Circle* Circle_ptr;
+typedef Fraction* Frac_ptr;
 typedef unsigned int Counter;
 
 int main(int argc, const char * argv[]) {
@@ -38,13 +52,10 @@ int main(int argc, const char * argv[]) {
         
         [circleInst printDirection];
         
-        Counter c;
-        c = 0;
-        while(c < 10)
-        {
-            c++;
-        }
-        NSLog(@"c : %d", c);
+        Frac_ptr frac = [[Fraction alloc] init];
+        [frac setTo:1 over:3];
+        [frac add:frac];
+        [frac print];
     }
     return 0;
 }

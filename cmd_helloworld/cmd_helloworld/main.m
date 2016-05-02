@@ -11,6 +11,7 @@
 #import "Circle.h"
 #import "XYPoint.h"
 
+// class category
 @interface Fraction (MathOps)
 -(void) add: (Fraction *) f;
 @end
@@ -22,6 +23,11 @@
     self.numerator = self.numerator * f.denominator + self.denominator * f.numerator;
     self.denominator = self.denominator * f.denominator;
 }
+@end
+
+// class extension
+@interface Fraction ()
+-(void) reduce;
 @end
 
 float gGlobalMainVal = 10.f;
@@ -55,6 +61,7 @@ int main(int argc, const char * argv[]) {
         Frac_ptr frac = [[Fraction alloc] init];
         [frac setTo:1 over:3];
         [frac add:frac];
+        [frac reduce];
         [frac print];
     }
     return 0;

@@ -40,4 +40,19 @@ static int staticCounter;
     
     return staticCounter;
 }
+// class extension
+-(void) reduce
+{
+    int u = _numerator;
+    int v = _denominator;
+    int temp;
+    while (v != 0)
+    {
+        temp = u % v;
+        u = v;
+        v = temp;
+    }
+    _numerator /= u;
+    _denominator /= u;
+}
 @end

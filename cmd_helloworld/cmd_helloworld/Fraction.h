@@ -18,5 +18,5 @@
 -(void) print;
 -(void) setTo: (int) n over: (int) d;
 -(int) increaseCommonCounter;
-
+-(int) getCommonCounter;
 @end

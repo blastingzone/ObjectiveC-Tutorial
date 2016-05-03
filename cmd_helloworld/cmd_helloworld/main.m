@@ -11,6 +11,12 @@
 #import "Circle.h"
 #import "XYPoint.h"
 
+// preprocessor-hack
+#define AND &&
+#define OR ||
+#define EQUAL ==
+
+
 // class category
 @interface Fraction (MathOps)
 -(void) add: (Fraction *) f;
@@ -63,6 +69,15 @@ int main(int argc, const char * argv[]) {
         [frac add:frac];
         [frac reduce];
         [frac print];
+        
+        if([frac increaseCommonCounter] EQUAL 3)
+        {
+            NSLog(@"Common Counter is 3");
+        }
+        else
+        {
+            NSLog(@"Common Counter is %d", [frac getCommonCounter]);
+        }
     }
     return 0;
 }

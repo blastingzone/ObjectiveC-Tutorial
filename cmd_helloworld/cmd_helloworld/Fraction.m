@@ -40,6 +40,12 @@ static int staticCounter;
     
     return staticCounter;
 }
+-(int) getCommonCounter
+{
+    extern int staticCounter;
+    
+    return staticCounter;
+}
 // class extension
 -(void) reduce
 {

@@ -44,40 +44,16 @@ typedef unsigned int Counter;
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Circle_ptr circleInst = [[Circle alloc] init];
+        int Fibonacci[15], i;
         
-        [circleInst setRadius:3.0];
-        NSLog(@"%f", [circleInst getArea]);
+        Fibonacci[0] = 0; /* by definition */
+        Fibonacci[1] = 1; /* ditto */
         
-        circleInst.name = @"Circle Instance";
-        NSLog(@"circle name = %@", circleInst.name);
+        for ( i = 2; i < 15; ++i )
+            Fibonacci[i] = Fibonacci[i-2] + Fibonacci[i-1];
         
-        //XYPoint origin
-        XYPoint* originPt = [[XYPoint alloc] init];
-        [originPt setX:10 andY:20];
-        [circleInst setOrigin:originPt];
-        NSLog(@"X : %d, Y : %d",circleInst.origin.x, circleInst.origin.y);
-        
-        [circleInst setAreaToGlobalValue];
-        
-        NSLog(@"Extern Global Value is : %f", gGlobalMainVal);
-        
-        [circleInst printDirection];
-        
-        Frac_ptr frac = [[Fraction alloc] init];
-        [frac setTo:1 over:3];
-        [frac add:frac];
-        [frac reduce];
-        [frac print];
-        
-        if([frac increaseCommonCounter] EQUAL 3)
-        {
-            NSLog(@"Common Counter is 3");
-        }
-        else
-        {
-            NSLog(@"Common Counter is %d", [frac getCommonCounter]);
-        }
+        for ( i = 0; i < 15; ++i )
+            NSLog (@"%i", Fibonacci[i]);
     }
     return 0;
 }

@@ -42,18 +42,18 @@ typedef Circle* Circle_ptr;
 typedef Fraction* Frac_ptr;
 typedef unsigned int Counter;
 
+
+void (^helloWorld) (NSString*, NSString*) =
+^(NSString *name, NSString* location){
+    NSLog(@"Hello World, %@ from %@", name, location);
+};
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int Fibonacci[15], i;
         
-        Fibonacci[0] = 0; /* by definition */
-        Fibonacci[1] = 1; /* ditto */
-        
-        for ( i = 2; i < 15; ++i )
-            Fibonacci[i] = Fibonacci[i-2] + Fibonacci[i-1];
-        
-        for ( i = 0; i < 15; ++i )
-            NSLog (@"%i", Fibonacci[i]);
+        helloWorld(@"Frodo", @"Shire");
     }
     return 0;
 }
+
+
